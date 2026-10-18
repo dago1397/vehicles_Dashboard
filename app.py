@@ -28,6 +28,3 @@ if build_scatter:
     fig_scatter = go.Figure(data=[go.Scatter(x=car_data['odometer'], y=car_data['price'], mode='markers')])
     fig_scatter.update_layout(title_text='Relación entre Odómetro y Precio')
     st.plotly_chart(fig_scatter, width='stretch')
-
-st.header('PRUEBA DE ACTUALIZACIÓN')
-st.write('El madrid roba y se queja de que el barcelona roba')
